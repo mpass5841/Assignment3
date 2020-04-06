@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="keywords" content="Resume,Video,Contact,Information">
+    <meta name="author" content="Matthew Passarelli">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+
+    <title>About Me</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">  </script>
+  
+
+</head>
+
+<body>
+    <div class="navBar">
+        <header>
+            <div class="navItem">
+                <a href=#resume>Resume</a>
+                <a href=#thegym>The Gym</a>
+                <a href=#video>Cars</a>
+                <a href=#contact>Contact</a>
+            </div>
+        </header>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row" id="resume">
+                <h1><a id="resume">Resume</a></h1>
+                <p class="text-justify">My resume contains information about myself that I feel would be important
+                    employers. Examples of this information includes my education,
+                    prior work experience, skills, and career objectives. Below you can find a sample of my resume:
+                </p>
+                <img src="images/resume.PNG" alt="My Resume" class="center">
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-lg-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="thegym">
+                <h1><a>The Gym</a></h1>
+                <p class="text-justify">A huge part of my life right now is going to the gym. I love going to the gym as
+                    I enjoy seeing progress in my physique, staying healthy, and
+                    connecting with people that have the same hobbies as myself. With the current COVID-19 outbreak I
+                    have been restricted to working out at home, however, I am very
+                    excited for gyms to reopen so that I can continue my progress.
+                </p>
+                <img src="images/gym.jpg" alt="The Gym" class="center" width="666" height="425">
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-lg-3"></div>
+            </div>
+        </div>
+        <div class="container" id="video">
+            <div class="row">
+                <h1><a>Cars</a></h1>
+                <p class="text-justify">Another huge hobby of mine is cars. I have liked cars since I was 14, and my
+                    passion for them has continued to expand ever since. Currently I
+                    drive a 2006 Mitsubishi Lancer Evolution, a car that I have wanted to own for 2 years. Below I have
+                    providede a video of another Evo that I have used as
+                    inspiration for my own:
+                </p>
+            </div>
+            <div class="row">
+                <video onloadstart="this.volume=0.10" poster="resources/cover.jpg" controls width="700"
+                    height="500" class="center">
+                    <source src="videos/evo.mp4" type='video/mp4'>
+                </video>
+            </div>
+        </div>
+
+        <div class="container" id="formID">
+            <div class="row">
+                <h1><a id="contact">Contact</a></h1>
+                <p class="text-justify">Below I have provided a contact form which can be used to contact me if you have any questions regarding the information
+                    on my website. I will be more than happy to answer any questions you may have!
+                </p>
+            </div>
+            <div id="form" class="formContainer">
+                <form method="post" action="index.html">
+                    <input type="hidden" name="subject">
+
+                    <div>
+                        <div id="formItem">
+                            <p>
+                                <label> Name:
+                                    <input name="fullname" type="text" size="25" value="" maxlength="20">
+                                </label>
+                            </p>
+                        </div>
+                        <br>
+                        <div id="formItem">
+                            <p>
+                                <label> Email:
+                                    <input name="email" type="text" size="25" value="" maxlength="50"
+                                        placeholder="ex: johndoe@gmail.com">
+                                </label>
+                            </p>
+                        </div>
+                        <br>
+                        <div id="formItem">
+                            <p>
+                                <label> Message:
+                                    <textarea name="message" cols="30" rows="10"></textarea>
+                                </label>
+                            </p>
+                        </div>
+                        <br>
+                    </div>
+                    <form>
+                        <input class="submit" type="submit" value="Submit" action="index.html">
+                    </form>
+                </form>
+            </div>
+        </div>
+
+
+        <footer>&copy Matthew Passarelli 2020</footer>
+    </div>
+</body>
