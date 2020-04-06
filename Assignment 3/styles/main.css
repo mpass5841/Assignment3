@@ -1,0 +1,115 @@
+:root {
+  --top: #ff00ff;    
+  --white: white;
+  --grey: white;
+  --hover: rgb(165, 0, 129);
+  --sections: #9900ff;
+}
+
+.navItem {
+  overflow: hidden;
+  background-color: var(--top);
+
+  top: 0;
+}
+
+.navItem a {
+  font-family: 'VT323';
+  float: left;
+  display: block;
+  color: var(--white);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  font-family: 'VT323';
+  background-color: var(--hover);
+  color: var(--white);
+}
+
+div[class*=container]{
+  padding: 25px;
+  background-color: var(--sections);
+  margin-top: 15px;
+}
+
+.navBar{
+top: 0;
+width: 100%;
+position: fixed;
+
+}
+
+div[class*="col-sm-4 col-lg-3"]{
+  padding: 10px;
+  text-align: center;
+}
+
+p{
+  text-indent: 10px;
+}
+
+footer{
+  background-color: var(--top);
+  color: var(--white);
+  height: 45px;
+  width: 100%;
+  padding: 15px 0;
+  padding-left: 5px;
+}
+
+.formContainer {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+.submit {
+  float: right;
+}
+
+.main {
+  color: white;
+  font-family: 'VT323';
+}
+
+#formItem {
+  color: black;
+  padding: 5px;
+  background-color: var(--white);
+  border: 3px solid var(--top);
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#formID{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+  color: white;
+  font-family: 'VT323';
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  margin-top: 80px;
+}
+
